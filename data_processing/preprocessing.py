@@ -11,3 +11,8 @@ logging.basicConfig(filename='preprocessing_20160520.log', filemode='w', format=
                     level=logging.DEBUG)
 
 logging.debug('数据预处理')
+
+train_data_file_path = '/home/jdwang/PycharmProjects/uciTest/dataset/' \
+                       'smsspamcollection/SMSSpamCollection'
+
+train_data = pd.read_csv
